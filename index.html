@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Daniil Medvedev – Timeline</title>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <header class='site-header'>
+    <h1>Medvedev Timeline</h1>
+    <nav><a href='#events'>Events</a><a href='#contact'>Contact</a></nav>
+    <button id='themeBtn' aria-label='Toggle theme'>Dark</button>
+  </header>
+  <section class='panel' id='events'>
+    <h3>Career Timeline</h3>
+    <ol class='timeline'></ol>
+  </section>
+  <section id='contact' class='panel'>
+    <h3>Contact</h3>
+    <form onsubmit='return false'>
+      <input placeholder='Name' required>
+      <input placeholder='Email' type='email' required>
+      <textarea placeholder='Message' rows='3'></textarea>
+      <button type='submit'>Submit</button>
+    </form>
+  </section>
+  <footer class='site-footer'>© 2026</footer>
+  <script src='script.js'></script>
+</body>
+</html>
