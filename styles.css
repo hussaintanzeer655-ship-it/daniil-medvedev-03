@@ -1,0 +1,8 @@
+/* reuse base styles minimal */:root{--bg:#f4f7fb;--fg:#1a1e29;--card:#fff;--accent:#3a6ef5}
+:root.dark{--bg:#0b1020;--fg:#e7eafe;--card:#141a2a;--accent:#8ab4ff}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Arial, sans-serif}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:1rem;background:var(--card);border-bottom:1px solid #e5e7eb}
+.panel{max-width:1000px;margin:1rem auto;padding:1rem;border-radius:8px;border:1px solid #e5e7eb;background:var(--card)}
+.timeline{list-style:decimal;margin:0;padding-left:1.25rem}
+.timeline li{margin:.75rem 0}
+@media (max-width:700px){.site-header{flex-direction:column;gap:.5rem}}
